@@ -1,0 +1,58 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and reports
+*.log
+*.csv
+*.json
+*.xml
+*.html
+*.xlsx
+
+# Selenium screenshots
+screenshots/
+*.png
+
+# WebDriver binaries (if manually added)
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+
+# Test output
+output/
+reports/
+junit-report.xml
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Environment variables or secrets
+.env
+*.secret
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
