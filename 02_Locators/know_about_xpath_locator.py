@@ -172,6 +172,9 @@ driver.find_element(By.XPATH, "//*[contains(@name, 'search')]")
 # starts-with() method
 driver.find_element(By.XPATH, "//*[starts-with(@type, 'tex')]")
 
+# text()
+driver.find_element(By.XPATH, "//a[text()='Women']")
+
 print("Testing done!")
 time.sleep(3)
 driver.quit()
